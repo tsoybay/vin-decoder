@@ -76,13 +76,6 @@ The VIN validation is plain functions you can run in Node:
 node -e "const s=require('./script.js'); console.log(s.validateVin('1HGCM82633A004352'))"
 ```
 
-## Publish with GitHub Pages
-
-1. Push these files to a new repository on your GitHub account.
-2. In the repository, open **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**, pick `main` and `/ (root)`, then save.
-4. After a minute your site is live at `https://YOUR-USERNAME.github.io/REPOSITORY-NAME/`. Paste that link at the top of this README.
-
 ## Data sources
 
 - [NHTSA vPIC API](https://vpic.nhtsa.dot.gov/api/) for VIN decoding
