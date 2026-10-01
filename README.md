@@ -33,7 +33,6 @@ I did not put a real Canadian car's VIN in this project because a VIN identifies
 - **Manufacturer pages only cover vehicles sold in Canada.** A car that was not sold in Canada, including the sample VIN, will return "No results" on those pages. That is normal, not a bug.
 - **The manufacturer links are a snapshot.** They were copied from Transport Canada's manufacturer list on October 1, 2026. They are third-party sites and can change, so re-check them from time to time (see `MANUFACTURER_LOOKUPS` in `script.js`).
 - **Direct links cover cars, SUVs, light trucks and vans.** Motorcycles and other makes get a link to Transport Canada's manufacturer list instead. Porsche has no online lookup listed, so the tool shows its phone number.
-- **Chevrolet, GMC, Buick and Cadillac use General Motors' lookup.** Transport Canada lists only General Motors, so this mapping is an assumption. Confirm it before relying on it.
 - **Vehicles built for other markets** (Europe, Japan) often come back with little or no data, because NHTSA's data covers vehicles sold in North America. Many of those VINs also fail the North American check digit test, so the tool shows a warning instead of blocking the lookup.
 - **Model names can differ** between NHTSA's VIN decoder and its recall database. The tool retries once with NHTSA's own spelling and tells you when it does.
 
